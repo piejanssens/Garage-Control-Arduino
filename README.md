@@ -9,7 +9,7 @@ Arduino Garage Control project including sketch and tutorial.
 The purpose of this project was to create a DIY garage control utitlity that can be remotely controlled via my iPhone.
 I chose for BLE (Bluetooth Low Energy a.k.a. Bluetooth 4.0) as it - what's in a name - very energy efficient and above all has better connectivity (range + connectiontime) then its predecessors.
 
-I wrote two iOS companion apps:
+I wrote two iOS companion apps. Note that you need to compile these yourself, the apps are not available on the App Store.
 * [Carage Controller](https://github.com/piejanssens/Garage-Control-iOS) - Monitor sensors and control the garage door
 * [My Garage](https://github.com/piejanssens/My-Garage-iOS) - Only function is to connect and immediately send the door switch command and close. This can be used with Siri by giving the command "Open my garage" which will just open the app and let it do it's thing.
 
