@@ -27,10 +27,19 @@ The requirements describe the parts you need to create the same Arduino project 
 * Magnetic switch: Any magnetic window switch will do, some are better (stronger) than others. I used the ones displayed in this picture which are great!
 * [Grove (analog) Light Sensor](http://www.seeedstudio.com/depot/grove-light-sensor-p-746.html?cPath=25_27)
 * [Grove (analog) Temperature Sensor](http://www.seeedstudio.com/depot/grove-temperature-sensor-p-774.html?cPath=25_27)
+* [Grove 4pin connector cables](http://www.seeedstudio.com/depot/grove-universal-4-pin-buckled-5cm-cable-5-pcs-pack-p-925.html?cPath=98_106_57)
 * A box to fit everything in
 * Tools (drill, screwdriver, wires, ...)
 * Optional [Power Converter e.g. 24V to 5V](http://www.seeedstudio.com/depot/cptc5-power-converter-12v24v-switch-to-5v-p-1066.html?cPath=1_4) to power the Arduino
 * Optional but recommended 2.4GHz SMA antenna. Caution: you need an antenna with middle pin or adapter.
 
 #How To
+1. Mount the grove base shield on the BLE shield, and mount the BLE shield on the Arduino
+2. Connect the light sensor connector with A? on the base shield
+3. Connect the temperature sensor connector with A? on the base shield
+4. Connect the relay with D? on the base shield
+5. Cut one grove connector cable in two. Connect the black and yellow wire to either side of the magnetic switch.
+6. Upload the sketch
+7. Open the console and enable debugging (= send 'd') or connect with one of the companion iOS apps
+8. Optional add a random authentication bytes "handshake" to both the sketch and the iOS app. These bytes are sent before switching the relay. Without this handshake the command to open the garage door will not be accepted.
 
