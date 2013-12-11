@@ -35,11 +35,12 @@ The requirements describe the parts you need to create the same Arduino project 
 
 #How To
 1. Mount the grove base shield on the BLE shield, and mount the BLE shield on the Arduino
-2. Connect the light sensor connector with A? on the base shield
-3. Connect the temperature sensor connector with A? on the base shield
-4. Connect the relay with D? on the base shield
-5. Cut one grove connector cable in two. Connect the black and yellow wire to either side of the magnetic switch.
-6. Upload the sketch
-7. Open the console and enable debugging (= send 'd') or connect with one of the companion iOS apps
-8. Optional add a random authentication bytes "handshake" to both the sketch and the iOS app. These bytes are sent before switching the relay. Without this handshake the command to open the garage door will not be accepted.
+2. Connect the light sensor connector with A3 on the base shield
+3. Connect the temperature sensor connector with A2 on the base shield
+4. Connect the relay with D4 on the base shield
+5. Cut one grove connector cable in two. 
+6. Plug the connector side in D6 and wirethe black and yellow cables to either side of the magnetic switch.
+7. Upload the sketch
+8. Open the console and enable debugging (= send 'd') or connect with one of the companion iOS apps
+9. Optional add a random authentication bytes "handshake" to both the sketch and the iOS app. These bytes are sent before switching the relay. Without this handshake the command to open the garage door will not be accepted.
 
