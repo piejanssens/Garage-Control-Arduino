@@ -3,6 +3,8 @@ Garage-Control-Arduino
 
 Arduino Garage Control project including sketch and tutorial.
 
+[Watch it in action!]
+
 #Overview
 The purpose of this project was to create a DIY garage control utitlity that can be remotely controlled via my iPhone.
 I chose for BLE (Bluetooth Low Energy a.k.a. Bluetooth 4.0) as it - what's in a name - very energy efficient and above all has better connectivity (range + connectiontime) then its predecessors.
