@@ -12,6 +12,7 @@ I chose for BLE (Bluetooth Low Energy a.k.a. Bluetooth 4.0) as it - what's in a 
 I wrote two iOS companion apps:
 * [Carage Controller](https://github.com/piejanssens/Garage-Control-iOS) - Monitor sensors and control the garage door
 * [My Garage](https://github.com/piejanssens/My-Garage-iOS) - Only function is to connect and immediately send the door switch command and close. This can be used with Siri by giving the command "Open my garage" which will just open the app and let it do it's thing.
+
 Both apps are using a modified BLE Shield library and will keep scanning for the device until it's found and then connect. This is very useful since (in case your so lucky that your car supports this) you can drive up to your house, press the steering wheel button (or activate Siri with the home button) and say "Open my garage". As soon as you come in range of the Arduino it will open the garage!
 
 The requirements describe the parts you need to create the same Arduino project as I did and is almost plug and play (that is whilst using my sketch and iOS app). It's up to you to decide what you want to build. E.g. you could go for something cheaper without the base shield, light and temperature sensor and directly connecting the magnetic switch and relay to the Arduino.
