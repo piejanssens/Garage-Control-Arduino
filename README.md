@@ -3,7 +3,7 @@ Garage Control with Arduino
 
 Arduino Garage Control project including sketch and tutorial.
 
-[Watch it in action!]
+[Watch it in action!](https://www.youtube.com/watch?v=utPfQMeuSUI)
 
 #Overview
 The purpose of this project was to create a DIY garage control utitlity that can be remotely controlled via my iPhone.
