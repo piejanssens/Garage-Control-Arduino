@@ -32,6 +32,7 @@ The requirements describe the parts you need to create the same Arduino project 
 * Tools (drill, screwdriver, wires, ...)
 * Optional [Power Converter e.g. 24V to 5V](http://www.seeedstudio.com/depot/cptc5-power-converter-12v24v-switch-to-5v-p-1066.html?cPath=1_4) to power the Arduino
 * Optional but recommended 2.4GHz SMA antenna. Caution: you need an antenna with middle pin or adapter.
+* [RedBearLab Arduino BLE Library](https://github.com/RedBearLab/BLEShield)
 
 #How To
 1. Mount the grove base shield on the BLE shield, and mount the BLE shield on the Arduino
