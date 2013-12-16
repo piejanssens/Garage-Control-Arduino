@@ -3,6 +3,9 @@ Garage Control with Arduino
 
 Arduino Garage Control project including sketch and tutorial.
 
+![alt text](http://i.imgur.com/b02XVBT.jpg "The End Result")
+
+
 #Demo
 [Watch it in action!](https://www.youtube.com/watch?v=utPfQMeuSUI)
 
